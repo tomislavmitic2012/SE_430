@@ -1,0 +1,6 @@
+tmp/
+tmp/*
+.vpprefdata/
+.vpprefdata/*
+*.xml
+*.vpp~*
