@@ -4,3 +4,4 @@ tmp/*
 .vpprefdata/*
 *.xml
 *.vpp~*
+*.vpp.bak
