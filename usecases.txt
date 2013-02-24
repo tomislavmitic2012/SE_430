@@ -224,13 +224,15 @@ Main Success Scenario (Basic Flow):
 
 Extensions (or Alternate Flows):
 4a. User snoozes alarm for a specified interval
-    1. Java clock updates system xml file with new info for clock
-	1a. Java clock unable to update XML file
+    1. Java clock updates lists of alarms to display to user
+    2. Java clock updates the system xml file with new info for clock
+	2a. Java clock unable to update XML file
 	    1. An error message is displayed to the user with information about why xml can't be updated
 	    2. User must take appropriate measures to rectify problem
 5a. Alarm has recurrence
-    1. Java clock updates system xml file with appropriate recurrence for the alarm
-	1a. Java clock unable to update XML file
+    1. Java clock update lists of alarms to display to user
+    2. Java clock updates system xml file with appropriate recurrence for the alarm
+	2a. Java clock unable to update XML file
 	    1. An error message is displayed to the user with information about why xml can't be updated
 	    2. User must take appropriate measures to rectify problem
 6a. Java clock is unable to update alarm clock system xml file

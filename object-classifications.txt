@@ -1,0 +1,10 @@
+Boudary Objects			    Entity Objects			  Controllers
+---------------			    --------------			  -----------
+New Alarm Window      		    XML					  Alarm Manager
+Main Application Window	      	    Alarm				  Time Manager
+Alarm List Window		    Sound File DTO		      	  Execution Manager
+Error Message Popup		    Alarm DTO				  Storage Manager
+Delete Alarm Popup    							  UI Manager
+Delete All Alarms Popup		      					  Sound Manager
+Java Clock Window
+Alarm Execution Window
